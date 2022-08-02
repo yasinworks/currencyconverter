@@ -1,7 +1,7 @@
 import React, {useEffect, useId} from 'react';
-import './Currency.scss';
+import './CurrencyRate.scss';
 
-function Currency(props) {
+function CurrencyRate(props) {
     const {currency} = props;
     const id = useId();
 
@@ -19,4 +19,4 @@ function Currency(props) {
     );
 }
 
-export default Currency;
+export default CurrencyRate;
