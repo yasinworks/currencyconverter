@@ -1,0 +1,17 @@
+.currency {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &__label {
+    font-size: 15px;
+  }
+
+  &__rate {
+    font-size: 18px;
+  }
+}
